@@ -1,5 +1,4 @@
-  <script>
-        let usernameRef = document.getElementById("username");
+ let usernameRef = document.getElementById("username");
         let passwordRef = document.getElementById("password");
         let eyeL = document.querySelector(".eyeball-l");
         let eyeR = document.querySelector(".eyeball-r");
@@ -44,6 +43,7 @@
             // Toggle the icon
             this.classList.toggle("fa-eye-slash");
             this.classList.toggle("fa-eye");
+
           
         });
 
@@ -55,4 +55,3 @@
                 normalHandStyle();
             }
         });
-    </script>
