@@ -205,19 +205,20 @@
         .hand-l,
         .hand-r {
             background-color: #3f3554;
-            height: 2.81em;
+            height: 4.81em;
             width: 2.5em;
             border: 0.18em solid #2e0d30;
             border-radius: 0.6em 0.6em 2.18em 2.18em;
-            transition: 1s all;
+            transition: 1s all; 
             position: absolute;
             top: 8.4em;
+            transform: rotate(-300deg);
         }
         .hand-l {
-            left: 7.5em;
+            left: 11.5em;
         }
         .hand-r {
-            right: 7.5em;
+            right: 11.5em;
         }
         .paw-l,
         .paw-r {
@@ -231,9 +232,12 @@
         }
         .paw-l {
             left: 10em;
+            transform: rotate(180deg);
+
         }
         .paw-r {
             right: 10em;
+            transform: rotate(180deg);
         }
         .paw-l:before,
         .paw-r:before {
@@ -276,13 +280,22 @@
                     <div class="blush-l"></div>
                     <div class="blush-r"></div>
                     <div class="eye-l">
-                        <div class="eyeball-l"></div>
+                        <div class="eyeball-l"></div> 
+              
                     </div>
                     <div class="eye-r">
                         <div class="eyeball-r"></div>
                     </div>
                     <div class="nose"></div>
                     <div class="mouth"></div>
+                </div>
+                <div >
+                    <div class="hand-l"></div>
+                    <div class="hand-r"></div>
+                </div>
+                <div>
+                    <div class="paw-l"></div>
+                      <div class="paw-r"></div> 
                 </div>
             </div>
         </div>
@@ -303,7 +316,6 @@
             </div>
             <button type="submit" class="w-full py-2 px-4 bg-blue-600 text-white font-medium rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">LOGIN</button>
         </form>
-    </div>
-  
-</body>
+    </div>  
+    </body>
 </html>
